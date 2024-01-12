@@ -1,8 +1,23 @@
 .banner {
     width: 100%;
-    
+    display: flex;
     background-color: #f5f5f5;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
-
+h1.bannerTitle {
+    margin: 0;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family:Arial, Helvetica, sans-serif
+}
+img.bannerImage {
+    width: 10%;
+    height: 10%;
+    border-radius: 8px;
+    background-image: url("/src/assets/Luke\ Petrasko.jpg");
+}
