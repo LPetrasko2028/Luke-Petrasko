@@ -1,28 +1,25 @@
 .navbar {
-    padding: 10px;
-    background-color: #f5f5f5;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin-left: auto;
+    background-color: #e6e6e6;
     border-radius: 8px;
     transition: background-color 1s ease;
+    align-content: right;
+    justify-content: right;
+    align-items: right;
 }
-
-.navbar:hover {
-    background-color: #e0e0e0;
-    background-image: radial-gradient(circle, #ff0000, #ff8000, #ffff00, #80ff00, #00ff00, #00ff80, #00ffff, #0080ff, #0000ff, #8000ff, #ff00ff, #ff0080);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 200%;
-}
-
 .navbarLink {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #f5f5f5;
+    background-color: #e6e6e6;
     color: #333;
     border: none;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    size: 3em;
+    font-size: 1.25em;
     transition: background-color 0.3s ease;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .navbarLink:hover {

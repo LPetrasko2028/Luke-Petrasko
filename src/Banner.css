@@ -1,23 +1,31 @@
 .banner {
     width: 100%;
     display: flex;
-    background-color: #f5f5f5;
+    background-color: #e6e6e6;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    max-height: 100px;
+    transition: background-color 1s ease;
+    
 }
+    
+
+
 h1.bannerTitle {
     margin: 0;
     padding: 10px 20px;
-    background-color: #f5f5f5;
+    background-color: #e6e6e6;
     color: #333;
     border: none;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
 }
 img.bannerImage {
-    width: 10%;
-    height: 10%;
-    border-radius: 8px;
-    background-image: url("/src/assets/Luke\ Petrasko.jpg");
+    width: auto;
+    max-width: 6em;
+    height: auto;
 }
